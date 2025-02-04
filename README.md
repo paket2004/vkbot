@@ -65,7 +65,7 @@ uvicorn bot:app --host 0.0.0.0 --port 8000 --reload
 
 12) Прописываем в bash консоль
 ```bash
-ngrokk http 8000
+ngrok http 8000
 ```
 
 13) На странице Callback_API вставляем в поле Адрес то, что написано после слова Forwarding (до символа ->).
