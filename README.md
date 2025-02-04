@@ -7,7 +7,8 @@
 3) Зайти в управление группой, перейти в сообщения и включить их
 4) Далее, скачиваем ngrok. распаковываем архив в любую папку, копируем путь к папке и добавляем его в переменную PATH
 5) Регистрируемся на сайте, пишем в консоль ```bash
-   ngrok config add-authtoken $YOUR_AUTHTOKEN```
+   ngrok config add-authtoken $YOUR_AUTHTOKEN
+   ```
    (ваш токен будет отображаться на сайте ngrok)
 ```bash
 pip install -r requirements.txt
