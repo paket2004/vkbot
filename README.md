@@ -61,6 +61,7 @@ pip install -r requirements.txt
 10) Запускаем код:
     ```bash
 uvicorn bot:app --host 0.0.0.0 --port 8000 --reload```
+
 12) Прописываем в bash консоль ```bash
 ngrokk http 8000```
 
